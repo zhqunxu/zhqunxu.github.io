@@ -240,9 +240,22 @@ hr{border:0;border-top:1px solid #eee;margin:20px 0}
   }
 .url-text {
     display: inline-block;
-    color: var(--primary-color);
-    font-weight: bold;
+    color: rgba(24, 25, 25, 0.798);
+    /* color: var(--primary-color); */
+    /* font-weight: bold; */
+    font-weight: 600;
     text-decoration: underline;
     /* text-align:center */
-    text-decoration-color: rgba(0, 0, 0, 0.3);
+    text-decoration-color: rgba(0, 0, 0, 0.495);
+    text-underline-offset: 0.3em;
+    /* text-decoration-thickness: 2px; */
+  }
+  .url-noline {
+    display: inline-block;
+    color: rgba(10, 28, 54, 0.901);
+    /* color: var(--primary-color); */
+    /* font-weight: bold; */
+    font-weight: 600;
+    /* text-align:center */
+    /* text-decoration-thickness: 2px; */
   }
